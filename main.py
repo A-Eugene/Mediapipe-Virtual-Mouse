@@ -132,7 +132,7 @@ while cap.isOpened():
     TTWO = getScreenCoordsFromNormalized(image, TTWO)
 
     # If CURSOR or TONE or TTWO went outside camera
-    if CURSOR != False and TONE != False and TTWO != False: 
+    if CURSOR and TONE and TTWO != False: 
       mouse.position = CURSOR
 
       # Measure distances between TONE and TTWO
