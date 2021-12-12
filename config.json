@@ -1,0 +1,8 @@
+{
+  "CURSOR": "INDEX_FINGER_MCP",
+  "TONE": "THUMB_TIP",
+  "TTWO": "INDEX_FINGER_TIP",
+  "controlarea_to_image_scale": 0.5,
+  "minimum_trigger_distance": 150,
+  "minimum_confidence": 0.4
+}
